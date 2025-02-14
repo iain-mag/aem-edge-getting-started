@@ -27,8 +27,7 @@
       "title",
       "hero",
       "cards",
-      "columns",
-      "teaser"
+      "columns"
     ]
   },
   {
@@ -47,7 +46,8 @@
     "hero",
     "cards",
     "columns",
-    "quote"
+    "quote",
+    "teaser"
    ]
 }
 
