@@ -15,6 +15,10 @@
   --heading-font: 'Roboto', sans-serif; /* Heading font */
   --body-font: 'Open Sans', sans-serif; /* Body font */
   --base-font-size: 16px; /* Base font size */
+  --body-font-family: 'Source Sans Pro', roboto-fallback, sans-serif;
+  --heading-font-family: 'Asar', roboto-condensed-fallback, sans-serif;
+  }
+
 }
 
 h2 {
