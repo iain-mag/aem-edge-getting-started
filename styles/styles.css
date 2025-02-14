@@ -16,3 +16,44 @@
   --body-font: 'Open Sans', sans-serif; /* Body font */
   --base-font-size: 16px; /* Base font size */
 }
+
+h2 {
+  font-size: var(--heading-font-size-xl); /* Set font size for h2 */
+}
+
+h2::after {
+  border-bottom: 2px solid var(--primary-color); /* Yellow underline */
+  content: "";
+  display: block;
+  padding-top: 8px;
+  width: 84px;
+}
+
+/* styles/styles.css */
+
+/* Buttons */
+a.button:any-link,
+button {
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 100%;
+  margin: 12px 0;
+  border: 2px solid transparent;
+  padding: 0.5em 1.2em;
+  font-family: var(--body-font-family);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  /* WKND specific treatments */
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+  border-radius: 0;
+}
