@@ -1,6 +1,6 @@
 {
   "mappings": [
-    "/content/my-new-site/:/",
+    "/content/aem-wknd-eds-ue/:/",
     "/content/aem-boilerplate/configuration:/.helix/config.json"
   ]
 }
